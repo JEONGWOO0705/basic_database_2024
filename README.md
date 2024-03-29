@@ -6,6 +6,8 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
     - DBMS 엔진 - 개발자버전
         - iso 다운로드 후 설치 추천
         - SQL Server에 대한 Azure 확장 비활성화 후 진행
+
+        ![기능선택](https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db001.png?raw=true)
         - 데이터베이스 엔진구성부터 중요
             - Windows인증모드로 하면 외부에서 접근불가
             - 혼합모드(sa)에 대한 암호를 지정 / mssql_p@ss (8자이상 [대소문자구분] 특수문자1자이상 포함)
