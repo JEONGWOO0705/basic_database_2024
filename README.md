@@ -275,10 +275,11 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
         ```
     - DB연결 설정 : Oracle, MySQL 등은 설정 없음
         - 구성 관리자에서 TCP/IP 로 접근을 허용하지 않으면 접속이 안됨
-            1. 시작 메뉴 > 모든 앱 > Microsoft SQL Server 20xx > SQL server 20xx 구성관리자 실행
-            2. SQL Server 네트워크 구성 > MSSQL SERVER에 대한 프로토콜 클릭
-            3. TCP/IP 프로토콜 상태 사용안함(최초) > TCP/IP 프로토콜 사용 > '예' 로 변경하기!!
-            4. IP 주소 탭에서 IP2(본인 IP), IP4(127.0.0.1)에 사용 '예' 로 바꾸기 
+            1. 시작 메뉴 > 모든 앱 > Microsoft SQL Server 20xx > **SQL server 20xx 구성관리자 실행**
+            2. SQL Server 네트워크 구성 > **MSSQL SERVER에 대한 프로토콜** 클릭
+            3. TCP/IP 프로토콜 상태 사용안함(최초) > **TCP/IP 프로토콜 사용 > '예' 로 변경하기!!**
+            4. **IP 주소 탭에서 IP2(본인 IP), IP4(127.0.0.1)에 사용 '예' 로 바꾸기** 
+            5. 적용 후 SQL Server 서비스 > SQL Server(MSSQLSERVER) 더블 클릭후 , **다시 시작하기** 버튼 클릭 !!
 
         ![구성관리자](https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db005.png?raw=true)
 
