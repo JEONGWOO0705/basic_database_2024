@@ -297,6 +297,9 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
 
     - 실행화면
 
+        https://github.com/JEONGWOO0705/basic_database_2024/assets/84116251/cf347b8b-4c13-486d-9edd-ffffe662da70
+
+
 
 ## 7일차 
 - SQL 고급
