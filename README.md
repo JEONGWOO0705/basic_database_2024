@@ -228,7 +228,7 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
         - WHERE - 다수행, 단일열(보통)
             - 비교연산, 집합연산, 한정연산, 존재연산 가능
 
-## 5일차
+## 5일차 (24.04.03)
 - SQL 고급
     - 서브쿼리 리뷰
     - 뷰 
@@ -283,4 +283,23 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
 
         ![구성관리자](https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db005.png?raw=true)
 
+
+## 6일차 (24.04.04)
+
+- 파이썬 SQL Server 연동 프로그래밍
+    - Madang 데이터 베이스 연동 (Madang DB 관리 프로그램)
+        - PyQt5 + pymssql
+
+    - 문제점 : 한글 깨짐 문제
+        1. DB 테이블의 varchar(ASCII) -> nvarchar(UTF-8) 로 변경
+        2. Python 에서 pymssql로 접속할때, Charset을 'UTF8'로 설정
+        3. INSERT 쿼리에 한글 입력되는 컬럼은 N''을 붙여줘야함(유니코드로 입력하라는 뜻)
+
+    - 실행화면
+
+
+## 7일차 
+- SQL 고급
+    - 트랜잭션
+    
 - 데이터베이스 모델링
