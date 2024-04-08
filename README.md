@@ -334,7 +334,7 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
     - 더미 생성시 100만건으로 제약을 두고 시작
     
     <!-- html img 태그 이미지 사이즈 조절 가능 -->
-    <img src = "https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db006.png?raw=true" width = "900">
+    <img src = "https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db006.png?raw=true" width = "870">
 
 - 정규화
     - DB 상에서 생길 수 있는 이상현상(삽입, 삭제, 수정)이 생기지 않는 릴레이션(테이블)을 분리해서 데이터 베이스 설계 하는 것 을 정규화 라고 한다
@@ -358,4 +358,4 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
             - SSMS > 보안 > 로그인 > sa존재 > 속성에서 비밀번호 변경 후 SQL Server인증으로 sa비밀번호 입력후 로그인 하면 됨
             - SSMS > 보안 > 로그인 > 새 로그인 클릭
             - 사용자 매핑 : hr 선택, 데이터 베이서 역할 멤버 : db_owner 추가 선택
-    2. 
+    2. HR 사용자 로그인
