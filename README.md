@@ -359,3 +359,19 @@ IoT 개발자 과정 SQL Server 학습 지포지토리
             - SSMS > 보안 > 로그인 > 새 로그인 클릭
             - 사용자 매핑 : hr 선택, 데이터 베이서 역할 멤버 : db_owner 추가 선택
     2. HR 사용자 로그인
+
+## 9일차
+- 실무 실습
+    - 쿼리 실습
+        - 기본 SELECT, WHERE, ORDER BY
+        - 집계함수 GROUP BY, ROLLUP
+        - JOIN, SUBQUERY, UNION
+        - CASE WHEN THEN END...
+        - 내장 함수 ... 
+     ![구성관리자](https://github.com/JEONGWOO0705/basic_database_2024/blob/main/images/db008.png?raw=true)
+
+- 공부를 더할 부분
+    - 트랙잭션 중
+    - DB보안 백업과 복원
+    - 모델링 + 정규화 
+    - 데이터 모델링 실습 
